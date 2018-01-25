@@ -60,7 +60,7 @@
       - redis-server
       - redis-cli
       - redis-check-aof
-      - redis-check-dump
+      # - redis-check-dump
 
   - name: cleaning up build files
     command: rm -rf /tmp/{{ item }}
